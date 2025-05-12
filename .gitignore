@@ -1,20 +1,24 @@
 # Binaries
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
 task-cli
-task-cli.exe
-.task.json
+*.exe
+*.out
+*.o
 
-# Output data
-/task.json
+# Build and dependency directories
+/bin/
+/build/
+/dist/
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Go modules
-vendor/
+# Go related
+*.test
+*.log
+*.tmp
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
